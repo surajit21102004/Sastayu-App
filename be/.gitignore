@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+
+# Environment files with secrets
+.env
+.env.*
+!.env.example
+
+# Uploads & User generated files
+uploads/audio/*
+!uploads/audio/.gitkeep
+uploads/selfies/*
+!uploads/selfies/.gitkeep
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db

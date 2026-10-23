@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+*/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment & Secrets (Crucial: never commit sensitive keys or database credentials)
+.env
+.env*.local
+*.env
+*.env.production
+*.env.local
+!*.env.example
+!*/*.env.example
+
+# Expo & Mobile
+.expo/
+*/.expo/
+dist/
+web-build/
+expo-env.d.ts
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# OS & Editor
+.DS_Store
+Thumbs.db
+.vscode/
+*.swp
+*.swo
+
+# Backend temporary uploads and logs
+be/uploads/*
+!be/uploads/.gitkeep
+*.log
